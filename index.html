@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project Asimov</title>
+<meta name="description" content="Small, well-made apps. Home of TaskTracker.">
+<link rel="icon" href="https://projectasimov.github.io/tasktracker/icon.svg">
+<style>
+:root{--bg:#0c0a12;--panel:#15121d;--text:#f2eef8;--muted:#8a839a;--cell:#25202f;--lit:#a855f7}
+@media (prefers-color-scheme: light){:root{--bg:#f6f3fb;--panel:#fff;--text:#1b1626;--muted:#6c6580;--cell:#e3ddee;--lit:#8b3fe0}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:640px;margin:0 auto;padding:56px 20px 64px}
+h1{font-size:28px;margin:0 0 6px;letter-spacing:-.02em}.tag{color:var(--muted);margin:0 0 40px}
+.app{display:flex;gap:16px;align-items:center;background:var(--panel);border:1px solid var(--cell);border-radius:18px;padding:18px}
+.app img{width:64px;height:64px;border-radius:16px;flex:none}.app h2{margin:0 0 2px;font-size:19px}.app p{margin:0;color:var(--muted);font-size:14px}
+.btn{display:inline-block;margin-top:10px;padding:9px 14px;border-radius:999px;background:var(--lit);color:#0c0a12;font-weight:700;text-decoration:none;font-size:14px}
+footer{margin-top:48px;color:var(--muted);font-size:13px}footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+  <h1>Project Asimov</h1>
+  <p class="tag">Small, well-made apps.</p>
+  <section class="app">
+    <img src="https://projectasimov.github.io/tasktracker/icon-192.png" alt="">
+    <div>
+      <h2>TaskTracker</h2>
+      <p>Track any yes/no daily task, one square per day. Sync across devices, share a task with friends, and see how you stack up.</p>
+      <a class="btn" href="https://projectasimov.github.io/tasktracker/">Open TaskTracker</a>
+    </div>
+  </section>
+  <footer><a href="privacy.html">Privacy policy</a> · <a href="mailto:tasktracker.support@gmail.com">Contact</a></footer>
+</main>
+</body>
+</html>
