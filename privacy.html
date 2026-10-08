@@ -18,26 +18,30 @@ main{max-width:680px;margin:0 auto;padding:48px 20px 64px}h1{font-size:26px;lett
 <h1>Tessera privacy policy</h1>
 <p class="date">Last updated 7 October 2026</p>
 
-<p>Tessera is a small app for tracking yes/no daily tasks. This page explains what it stores and why. The short version: it keeps the tasks and days you enter, and, if you sign in, your Google account's basic profile so your data can follow you between devices. Nothing is sold, shared with advertisers, or used for anything other than running the app.</p>
+<p>Tessera is a small app for tracking daily habits as a grid of tiles. This page explains what it stores, where, and how to delete it. The short version: it keeps the tasks and days you enter, and, if you sign in, your Google account's basic profile so your data can follow you between devices and so group members can see your name. Nothing is sold, shared with advertisers, or used for anything other than running the app.</p>
 
 <h2>What is stored</h2>
 <ul>
-  <li><strong>Your tasks and days.</strong> Task names, colours, icons, and which days you marked. Without signing in this stays only on your device.</li>
-  <li><strong>Your Google account basics, if you sign in.</strong> Your Google account ID, display name, and email address, received from Google when you sign in. Used to tie your data to you and to show your name to members of any group you join.</li>
-  <li><strong>Group membership.</strong> If you share a task or join one, the app stores which groups you belong to so members can see a leaderboard of each other's streaks and counts.</li>
+  <li><strong>Your tasks and days.</strong> Task names, colours, icons, how many times per day a task is meant to happen, which days you marked, how many times you logged each day, and whether a day was covered by a streak freeze or a repair. Without signing in this stays only on your device.</li>
+  <li><strong>Your Google account basics, if you sign in.</strong> Your Google account ID, display name and email address, received from Google when you sign in. Used to tie your data to you, and to show your display name to members of groups you join. Tessera never sees your Google password.</li>
+  <li><strong>Tiles and freezes.</strong> The in-app points you earn from streaks ("tiles"), banked streak freezes, and which milestones have already been rewarded. They are earned only; nothing is bought.</li>
+  <li><strong>Groups.</strong> If you share a task or join one: the group's name, who hosts it, who its members are, shoutouts sent between members, the members you have blocked, and any reports you send about another member (with the reason you give).</li>
 </ul>
 
 <h2>Where it is stored</h2>
-<p>On your device, in the browser's storage. When you sign in, a copy is stored on servers run by Cloudflare (Workers, D1, and KV) so it can sync to your other devices. Sign-in itself is handled by Google; Tessera never sees your password.</p>
+<p>On your device, in the browser's storage. When you sign in, a copy is stored on servers run by Cloudflare (Workers, D1 and KV) in Cloudflare's data centres, so it can sync to your other devices. Data travels over HTTPS. Sign-in is handled by Google. The app's typeface is loaded from Google Fonts, which means Google receives the request for the font file (no account data is attached to it).</p>
 
 <h2>What is not collected</h2>
-<p>No advertising identifiers, no analytics or tracking, no location, no contacts, and nothing beyond what is listed above.</p>
+<p>No advertising identifiers, no analytics or tracking, no location, no contacts, no messages, and nothing beyond what is listed above.</p>
 
 <h2>Who can see your data</h2>
-<p>Only you, and, for shared tasks, the other members of that group (your name and your streak, month, and total counts for that task). Nobody else, and no third parties beyond the hosting providers named above.</p>
+<p>You. For a shared task, the other members of that group see your display name, your streak, your counts for that task, and any shoutouts you send; they do not see your other tasks or your email address. Nobody else, and no third parties beyond the hosting providers named above. If you block a member, they are removed from your view and can no longer send you shoutouts. Reports are read by us to act on the community guidelines.</p>
+
+<h2>How long it is kept</h2>
+<p>For as long as your account exists. Deleted tasks are removed from the server when you delete your account; until then they are kept so that deletions reach your other devices. Sessions expire after 90 days.</p>
 
 <h2>Deleting your data</h2>
-<p>Delete a task in the app to remove it and its days. Sign out to remove the link between the device and your account. To delete your account and everything stored on the server, email <a href="mailto:tasktracker.support@gmail.com">tasktracker.support@gmail.com</a> from the address you signed in with and it will be removed within 30 days.</p>
+<p>Delete a task in the app to remove it and its days. Sign out to remove the link between a device and your account. To delete your account and everything stored on the server, open <strong>Settings &rarr; Account &rarr; Delete account</strong> in the app; it takes effect immediately on every device. If you no longer have the app, see <a href="delete.html">how to request deletion</a>. Requests sent by email are completed within 30 days.</p>
 
 <h2>Changes</h2>
 <p>If this policy changes, the date at the top will be updated. Questions: <a href="mailto:tasktracker.support@gmail.com">tasktracker.support@gmail.com</a>.</p>
